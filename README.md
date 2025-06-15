@@ -1,4 +1,4 @@
-````markdown
+
 # 🌀 Otakudesu Scraper
 
 REST API untuk scraping data dari [Otakudesu](https://otakudesu.cloud)
@@ -12,7 +12,6 @@ REST API untuk scraping data dari [Otakudesu](https://otakudesu.cloud)
 ---
 
 ## ⚙️ Instalasi
-
 ```bash
 git clone https://github.com/kamu/otakudesu-api.git
 cd otakudesu-api
