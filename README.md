@@ -1,22 +1,13 @@
-Mantap, Ozul! Ini versi `README.md` yang sudah dilengkapi **tabel endpoint lengkap** beserta deskripsinya, parameter, dan contoh pemanggilan:
-
----
-
 ````markdown
-# 🌀 Otakudesu Scraper API
+# 🌀 Otakudesu Scraper
 
-REST API untuk scraping data dari [Otakudesu](https://otakudesu.cloud) — lengkap dengan cache, mirror, dan link streaming yang siap pakai.
+REST API untuk scraping data dari [Otakudesu](https://otakudesu.cloud)
 
----
-
-## 🚀 Fitur Utama
-
-- 🔍 Cari anime langsung dari judul
-- 📘 Ambil detail lengkap anime (poster, sinopsis, episode)
-- 🎞️ Ambil link streaming & mirror langsung (dengan iframe asli)
-- 📺 Dapatkan daftar ongoing & complete
-- ⚡ Cache internal (`node-cache`) untuk performa maksimal
-- 🧱 Modular & ringan
+- 🔍 Cari anime 
+- 📘 Ambil detail lengkap anime
+- 🎞️ Ambil link streaming & download
+- 📺 Ambil daftar ongoing & complete
+- ⚡ Cache internal (`node-cache`)
 
 ---
 
@@ -28,8 +19,6 @@ cd otakudesu-api
 npm install
 npm start
 ````
-
-> API berjalan di `http://localhost:3000/api` secara default
 
 ---
 
