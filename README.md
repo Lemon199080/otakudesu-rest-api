@@ -41,24 +41,24 @@ npm start
 ### Cari Anime
 
 ```
-GET /api/search?q=kimetsu
+GET /search?q=kimetsu
 ```
 
 ### Ambil Detail Anime
 
 ```
-GET /api/anime/kimetsu-no-yaiba-sub-indo
+GET /anime/kimetsu-no-yaiba-sub-indo
 ```
 
-### Ambil Link Streaming Episode
+### Ambil Link Streaming/Download PerEpisode
 
 ```
-GET /api/episode/kimetsu-no-yaiba-episode-1-sub-indo
+GET /episode/kimetsu-no-yaiba-episode-1-sub-indo
 ```
 
 ---
 
-## 🧠 Struktur Modular
+## 🧠 Struktur
 
 ```
 .
@@ -73,7 +73,7 @@ GET /api/episode/kimetsu-no-yaiba-episode-1-sub-indo
 
 ## 🔧 Kustomisasi
 
-Untuk ganti domain dasar (misalnya mirror otakudesu lain):
+Untuk ganti domain (misalnya mirror otakudesu lain):
 
 ```js
 app.locals.config = {
@@ -87,17 +87,6 @@ app.locals.config = {
 
 * Tidak menyimpan file video atau konten.
 * Hanya menyajikan data publik yang tersedia via HTML Otakudesu.
-* Gunakan dengan bijak dan sesuai etika scraping.
+* Gunakan dengan bijak
 
 ---
-
-## 🧾 Lisensi
-
-MIT — bebas digunakan untuk proyek edukasi, pribadi, atau eksperimen.
-
-```
-
----
-
-Kalau kamu mau versi markdown ini langsung saya simpan jadi `README.md`, tinggal bilang aja: **"buatkan file canvas README"** atau **"simpan ini sebagai readme project gue"** — langsung tancap gas.
-```
