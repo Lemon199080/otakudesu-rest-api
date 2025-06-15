@@ -23,16 +23,16 @@ npm start
 
 ## 📡 Daftar Endpoint
 
-| Method | Endpoint         | Keterangan                          | Parameter       | Contoh                                |
-| ------ | ---------------- | ----------------------------------- | --------------- | ------------------------------------- |
-| GET    | `/health`        | Cek status server & cache           | –               | `/api/health`                         |
-| GET    | `/search`        | Cari anime                          | `q`: kata kunci | `/api/search?q=naruto`                |
-| GET    | `/anime/:slug`   | Ambil detail anime berdasarkan slug | `:slug`         | `/api/anime/one-piece-sub-indo`       |
-| GET    | `/episode/:slug` | Ambil iframe dan mirror episode     | `:slug`         | `/api/episode/one-piece-episode-1051` |
-| GET    | `/ongoing`       | Daftar anime yang masih tayang      | –               | `/api/ongoing`                        |
-| GET    | `/completed`     | Daftar anime yang sudah tamat       | –               | `/api/completed`                      |
-| GET    | `/cache/stats`   | Statistik cache                     | –               | `/api/cache/stats`                    |
-| DELETE | `/cache/clear`   | Bersihkan seluruh cache             | –               | `/api/cache/clear`                    |
+| Method | Endpoint         | Keterangan                          | Parameter       | Contoh                            |
+| ------ | ---------------- | ----------------------------------- | --------------- | --------------------------------- |
+| GET    | `/health`        | Cek status server & cache           | –               | `/health`                         |
+| GET    | `/search`        | Cari anime                          | `q`: kata kunci | `/search?q=naruto`                |
+| GET    | `/anime/:slug`   | Ambil detail anime berdasarkan slug | `:slug`         | `/anime/one-piece-sub-indo`       |
+| GET    | `/episode/:slug` | Ambil iframe dan mirror episode     | `:slug`         | `/episode/one-piece-episode-1051` |
+| GET    | `/ongoing`       | Daftar anime yang masih tayang      | –               | `/ongoing`                        |
+| GET    | `/completed`     | Daftar anime yang sudah tamat       | –               | `/completed`                      |
+| GET    | `/cache/stats`   | Statistik cache                     | –               | `/cache/stats`                    |
+| DELETE | `/cache/clear`   | Bersihkan seluruh cache             | –               | `/cache/clear`                    |
 
 ---
 
