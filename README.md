@@ -15,8 +15,8 @@ Sebuah REST API sederhana untuk mengambil data dari [Otakudesu](https://otakudes
 git clone https://github.com/kamu/otakudesu-api.git
 cd otakudesu-api
 npm install
----
 
+---
 
 | Method | Endpoint              | Deskripsi                         |
 | ------ | --------------------- | --------------------------------- |
