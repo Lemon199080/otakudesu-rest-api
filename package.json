@@ -1,7 +1,7 @@
 {
-  "name": "otakudesu-api",
+  "name": "otakudesu-rest-api",
   "version": "1.0.0",
-  "description": "Modular Otakudesu API scraper",
+  "description": "Otakudesu scraper",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
